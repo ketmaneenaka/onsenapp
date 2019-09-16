@@ -51,7 +51,7 @@
                 </p>
 
                 <p>
-                    <ons-button id="registerbt" class="button--large--cta"
+                    <ons-button id="registerbt" class="button--large--cta" onclick="loginbtn()"
                         style="width: 280px; border-radius: 7px; margin: 0 auto;">Register</ons-button>
                 </p>
 
@@ -59,11 +59,11 @@
 
                 <p>
                     <button class="toolbar-button">
-                        <ons-button id="facebookbt" class="button--large--cta"
+                        <ons-button id="facebookbt" class="button--large--cta" onclick="loginbtn()"
                             style="width: 125px; border-radius: 7px; margin: 0 auto;">Facebook</ons-button>
                     </button>
                     <button class="toolbar-button">
-                        <ons-button id="gmailbt" class="button--large--cta"
+                        <ons-button id="gmailbt" class="button--large--cta" onclick="loginbtn()"
                             style="width: 125px; border-radius: 7px; margin: 0 auto;">Gmail</ons-button>
                     </button>
                 </p>
@@ -71,6 +71,11 @@
 
         </ons-page>
     </center>
+    <script>
+        function loginbtn() {
+          window.location.href='index.html'
+        } 
+        </script>
 </body>
 
 </html>

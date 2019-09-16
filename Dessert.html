@@ -35,7 +35,7 @@
                     <ons-scroller>
                         <ons-list-header> Dessert</ons-list-header>
                         <ons-card>
-                                <ons-list-item modifier="chevron" tappable>Khatu Cafe</ons-list-item>
+                                <ons-list-item modifier="chevron" onclick="cafebtn()" tappable>Khatu Cafe</ons-list-item>
     
                                 <div class="center">
                                     <center>
@@ -48,7 +48,7 @@
     
     
                             <ons-card>
-                                <ons-list-item modifier="chevron" tappable>Happy Cake Happy Cafe</ons-list-item>
+                                <ons-list-item modifier="chevron" onclick="happybtn()" tappable>Happy Cake Happy Cafe</ons-list-item>
                                 <div class="left">
                                     <center>
                                         <img src="http://www.bangkokland.co.th/beehive/floorplan/floor2/images/store24/07.jpg"
@@ -65,6 +65,16 @@
 
         </ons-page>
     </center>
+    <script>        
+       
+        function cafebtn() {
+          window.location.href='Rkhatucafe.html'
+        }
+        function happybtn() {
+          window.location.href='Rhappycake.html'
+        }
+     </script> 
+
 </body>
 
 </html>

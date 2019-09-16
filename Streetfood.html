@@ -35,7 +35,7 @@
                     <ons-scroller>
                         <ons-list-header> Street Food</ons-list-header>
                         <ons-card>
-                            <ons-list-item modifier="chevron" tappable>Tam sang mea ma nee</ons-list-item>
+                            <ons-list-item modifier="chevron" onclick="tamsangbtn()" tappable>Tam sang mea ma nee</ons-list-item>
 
                             <div class="center">
                                 <center>
@@ -48,7 +48,7 @@
 
 
                         <ons-card>
-                            <ons-list-item modifier="chevron" tappable>Bang mhad</ons-list-item>
+                            <ons-list-item modifier="chevron"  onclick="bangbtn()"tappable>Bang mhad</ons-list-item>
                             <div class="left">
                                 <center>
                                     <img src="https://spcdn.co/wp-content/uploads/2019/02/Sequence-07.00_06_26_13.Still044.jpg"
@@ -66,6 +66,15 @@
 
         </ons-page>
     </center>
+    <script>        
+        function tamsangbtn() {
+          window.location.href='Rtansang.html'
+        }
+        function bangbtn() {
+          window.location.href='Rbangmhad.html'
+        }
+</script>
+
 </body>
 
 </html>

@@ -35,7 +35,7 @@
                     <ons-scroller>
                        
                         <ons-card>
-                            <ons-list-item modifier="chevron" tappable>ฮันนี่โทส     159 $</ons-list-item>
+                            <ons-list-item modifier="chevron" onclick="paymentbtn()" tappable>ฮันนี่โทส     159 $</ons-list-item>
 
                             <div class="center">
                                 <center>
@@ -47,7 +47,7 @@
                         </ons-card>
 
                         <ons-card>
-                                <ons-list-item modifier="chevron" tappable>บิงซู     159 $</ons-list-item>
+                                <ons-list-item modifier="chevron" onclick="paymentbtn()" tappable>บิงซู     159 $</ons-list-item>
     
                                 <div class="center">
                                     <center>
@@ -73,6 +73,14 @@
 
         </ons-page>
     </center>
+     
+    <script>        
+       
+        function paymentbtn() {
+          window.location.href='payment.html'
+        }
+        
+        </script> 
 </body>
 
 </html>

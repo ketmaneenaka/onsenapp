@@ -50,13 +50,13 @@
         <p style="align-content: center; color:Gray;">or</p>
         
         <p>
-          <ons-button id="signinfacebt" class="button--large--cta" style="width: 280px; border-radius: 7px; margin: 0 auto;">Sign In using
+          <ons-button id="signinfacebt" onclick="login()" class="button--large--cta" style="width: 280px; border-radius: 7px; margin: 0 auto;">Sign In using
             Facebook</ons-button>
         </p>
 
         <p>
           <p>Don't have an account?</p>
-          <ons-button id="reigterbt"class="button--large--cta" style="width: 280px; border-radius: 7px; margin: 0 auto;">Register</ons-button>
+          <ons-button id="reigterbt" onclick="regis()" class="button--large--cta" style="width: 280px; border-radius: 7px; margin: 0 auto;">Register</ons-button>
         </p>
       </div>
 
@@ -65,6 +65,9 @@
   <script>
     function login() {
       window.location.href='index.html'
+    } 
+    function regis() {
+      window.location.href='register.html'
     } 
     </script>
 </body>

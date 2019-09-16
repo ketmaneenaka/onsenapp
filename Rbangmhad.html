@@ -35,7 +35,7 @@
                     <ons-scroller>
                        
                         <ons-card>
-                            <ons-list-item modifier="chevron" tappable>ข้าวหมกไก่ทอด     50 $</ons-list-item>
+                            <ons-list-item modifier="chevron" onclick="paymentbtn()" tappable>ข้าวหมกไก่ทอด     50 $</ons-list-item>
 
                             <div class="center">
                                 <center>
@@ -47,7 +47,7 @@
                         </ons-card>
 
                         <ons-card>
-                                <ons-list-item modifier="chevron" tappable>ข้าวมันไก่     50$</ons-list-item>
+                                <ons-list-item modifier="chevron" onclick="paymentbtn()" tappable>ข้าวมันไก่     50$</ons-list-item>
     
                                 <div class="center">
                                     <center>
@@ -59,7 +59,7 @@
                             </ons-card>
 
                             <ons-card>
-                                    <ons-list-item modifier="chevron" tappable>ข้าวหมกไก่เหลือง   50$</ons-list-item>
+                                    <ons-list-item modifier="chevron" onclick="paymentbtn()" tappable>ข้าวหมกไก่เหลือง   50$</ons-list-item>
         
                                     <div class="center">
                                         <center>
@@ -83,6 +83,14 @@
 
         </ons-page>
     </center>
+    
+    <script>        
+       
+        function paymentbtn() {
+          window.location.href='payment.html'
+        }
+        
+        </script> 
 </body>
 
 </html>
