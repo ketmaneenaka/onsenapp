@@ -28,6 +28,10 @@
             <ons-navigator title="Navigator" var="myNavigator">
                 <ons-page>
                     <ons-toolbar>
+                            <div class="toolbar__left">
+                                    <span class="toolbar-button" style="color: rgb(49, 12, 184); font-weight: bold;"
+                                        onclick="back()">back</span>
+                                </div>
                         <div class="center">FoodMonkey</div>
                     </ons-toolbar>
                     <ons-card>
@@ -72,12 +76,46 @@
                                         <ons-list-item modifier="tappable">2</ons-list-item>
                                     </ons-col>
                                     <ons-col>
-                                        <ons-list-item modifier="tappable">ข้าวเครื่องแกงหมู</ons-list-item>
+                                        <ons-list-item modifier="tappable">ข้าวหมกไก่ทอด</ons-list-item>
                                     </ons-col>
                                     <ons-col width="70px">
-                                        <ons-list-item modifier="tappable">$40.00</ons-list-item>
+                                        <ons-list-item modifier="tappable">$50.00</ons-list-item>
                                     </ons-col>
                                 </ons-row>
+                                <ons-row>
+                                    <ons-col width="100px">
+                                        <ons-list-item modifier="tappable">3</ons-list-item>
+                                    </ons-col>
+                                    <ons-col>
+                                        <ons-list-item modifier="tappable">ฮันนีโทส</ons-list-item>
+                                    </ons-col>
+                                    <ons-col width="70px">
+                                        <ons-list-item modifier="tappable">$159.00</ons-list-item>
+                                    </ons-col>
+                                </ons-row>
+                                <ons-row>
+                                    <ons-col width="100px">
+                                        <ons-list-item modifier="tappable">4</ons-list-item>
+                                    </ons-col>
+                                    <ons-col>
+                                        <ons-list-item modifier="tappable">ชาเขียว</ons-list-item>
+                                    </ons-col>
+                                    <ons-col width="70px">
+                                        <ons-list-item modifier="tappable">$20.00</ons-list-item>
+                                    </ons-col>
+                                </ons-row>
+                                <ons-row>
+                                    <ons-col width="100px">
+                                        <ons-list-item modifier="tappable">5</ons-list-item>
+                                    </ons-col>
+                                    <ons-col>
+                                        <ons-list-item modifier="tappable">น้ำแตงโม</ons-list-item>
+                                    </ons-col>
+                                    <ons-col width="70px">
+                                        <ons-list-item modifier="tappable">$29.00</ons-list-item>
+                                    </ons-col>
+                                </ons-row>
+                                
 
                                
                             </ons-list>
@@ -86,7 +124,7 @@
                            <center>
                                 <div>
                                         <button class="button button--light" style="background-color:
-                                                 rgb(241, 241, 231);width: 360px; border-radius: 10px; margin: 0 auto;">ทั้งหมด  : 80.00 บาท
+                                                 rgb(241, 241, 231);width: 300px; border-radius: 10px; margin: 0 auto;">ทั้งหมด  : 298.00 บาท
                                         </button>
                                     </div>
                            </center>
@@ -94,7 +132,7 @@
                         <center>
                             <div>
                                 <button class="button button--light" style="background-color:
-                                         rgb(241, 241, 231);width: 360px; border-radius: 10px; margin: 0 auto;">Enter
+                                         rgb(241, 241, 231);width: 300px; border-radius: 10px; margin: 0 auto;">Enter
                                     coupon if you have any
                                 </button>
                             </div>
@@ -115,10 +153,21 @@
                                     style="background-color: rgb(13, 2, 15);width: 280px; border-radius: 10px; margin: 0 auto;">
                                     Cash on Delivery</ons-button></br>
                             </p>
+                            <button class="button"  onclick="back()"
+                            style="background-color: rgb(15, 153, 22);width: 300px; border-radius: 10px; margin: 0 auto;">ยืนยัน</button>
+                            
                         </center>
                     </ons-card>
                 </ons-page>
+                
+                   
+                  </ons-tabbar>
     </center>
+    <script>
+    function back() {
+        window.location.href = "index.html";
+    }   
+    </script>
 </body>
 
 </html>

@@ -16,9 +16,11 @@
 
 <body>
     <ons-navigator id="myNavigator" page="login.html">
+            
     </ons-navigator>
     <center>
         <ons-page id='mypage'>
+        
             <ons-navigator title="Navigator" var="myNavigator">
                 <ons-page>
 
@@ -26,6 +28,12 @@
 
 
                     <ons-toolbar>
+                            
+                                    <div class="toolbar__left">
+                                        <span class="toolbar-button" style="color: rgb(49, 12, 184); font-weight: bold;"
+                                            onclick="back()">back</span>
+                                    </div>
+                                
                         <div class="center">FoodMonkey</div>
                     </ons-toolbar>
 
@@ -67,7 +75,10 @@
         </ons-page>
     </center>
 
-    <script>        
+    <script>     
+       function back() {
+        window.location.href = "index.html";
+    }   
        
         function mukdabtn() {
           window.location.href='Rmukda.html'

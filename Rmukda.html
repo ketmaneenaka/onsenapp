@@ -26,7 +26,11 @@
 
 
                     <ons-toolbar>
-                        <div class="center">ชา คอน</div>
+                            <div class="toolbar__left">
+                                    <span class="toolbar-button" style="color: rgb(49, 12, 184); font-weight: bold;"
+                                        onclick="back()">back</span>
+                                </div>
+                        <div class="center">มุกดาฟรุ๊ตตี้</div>
                     </ons-toolbar>
 
 
@@ -84,7 +88,10 @@
         </ons-page>
     </center>
      
-    <script>        
+    <script>      
+     function back() {
+        window.location.href = "index.html";
+    }     
        
         function paymentbtn() {
           window.location.href='payment.html'

@@ -26,6 +26,10 @@
 
 
                     <ons-toolbar>
+                            <div class="toolbar__left">
+                                    <span class="toolbar-button" style="color: rgb(49, 12, 184); font-weight: bold;"
+                                        onclick="back()">back</span>
+                                </div>
                         <div class="center">กะทู้ คาเฟ่</div>
                     </ons-toolbar>
 
@@ -75,6 +79,9 @@
     </center>
      
     <script>        
+     function back() {
+        window.location.href = "index.html";
+    }   
        
         function paymentbtn() {
           window.location.href='payment.html'
