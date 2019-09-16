@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FoodMonkey</title>
+
+    <script src="lib/onsen/js/onsenui.js"></script>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
+
+</head>
+
+<body>
+    <ons-navigator id="myNavigator" page="login.html">
+    </ons-navigator>
+    <center>
+        <ons-page id='mypage'>
+            <ons-navigator title="Navigator" var="myNavigator">
+                <ons-page>
+
+
+
+
+                    <ons-toolbar>
+                        <div class="center">FoodMonkey</div>
+                    </ons-toolbar>
+
+
+
+
+                    <ons-scroller>
+                        <ons-list-header> Dessert</ons-list-header>
+                        <ons-card>
+                                <ons-list-item modifier="chevron" tappable>Khatu Cafe</ons-list-item>
+    
+                                <div class="center">
+                                    <center>
+                                        <span><img
+                                                src="http://www.oknation.net/blog/home/user_data/file_data/201606/03/152204f14.jpg"
+                                                alt="Chinese" style="width:300px;height:200px;"></img></span>
+                                    </center>
+                                </div>
+                            </ons-card>
+    
+    
+                            <ons-card>
+                                <ons-list-item modifier="chevron" tappable>Happy Cake Happy Cafe</ons-list-item>
+                                <div class="left">
+                                    <center>
+                                        <img src="http://www.bangkokland.co.th/beehive/floorplan/floor2/images/store24/07.jpg"
+                                            alt="Chinese" style="width:300px;height:200px;"></img>
+                                    </center>
+                                </div>
+                            </ons-card>
+                        
+                       
+                    </ons-scroller>
+                </ons-page>
+            </ons-navigator>
+            Resources
+
+        </ons-page>
+    </center>
+</body>
+
+</html>

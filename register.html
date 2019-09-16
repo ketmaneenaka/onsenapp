@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+        <style>
+                #mypage .page__background {
+                  background-color: gold;
+                }
+        </style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Onsen App</title>
+
+    <script src="lib/onsen/js/onsenui.js"></script>
+    <script src="lib/jquery/jquery-3.4.1.min.js"></script>
+    <link rel="stylesheet" href="lib/onsen/css/onsenui.css">
+    <link rel="stylesheet" href="lib/onsen/css/onsen-css-components.css">
+    <link rel="stylesheet" type="text/css" href="path/to/onsen-css-components.css">
+
+</head>
+
+
+
+<body>
+    <ons-navigator id="myNavigator" page="register.html">
+    </ons-navigator>
+    <center>
+        <ons-page id='mypage2'>
+            <div>
+                    <p>
+                            <img src="img/logo.jpg" alt="Logo FoodMonkey" style="width:300px;height:150px;">
+                          </p>
+
+                <p>Create an Account?</p>
+
+                <p style="margin-top: 30px; border: 1px solid Gray; border-radius: 8px; width: 280px;">
+                    <ons-input id="username" placeholder="Full Name" float></ons-input>
+                </p>
+
+                <p style="margin-top: 30px; border: 1px solid Gray; border-radius: 8px; width: 280px;">
+                    <ons-input id="email" placeholder="Email Address" float></ons-input>
+                </p>
+
+                <p style="margin-top: 30px; border: 1px solid Gray; border-radius: 8px; width: 280px;">
+                    <ons-input id="phonenumber" placeholder="Phone Number" float></ons-input>
+                </p>
+
+                <p style="margin-top: 30px; border: 1px solid Gray; border-radius: 8px; width: 280px;">
+                    <ons-input id="password" type="password" placeholder="Password" float></ons-input>
+                </p>
+
+                <p>
+                    <ons-button id="registerbt" class="button--large--cta"
+                        style="width: 280px; border-radius: 7px; margin: 0 auto;">Register</ons-button>
+                </p>
+
+                <p style="align-content: center; color:Gray;">or</p>
+
+                <p>
+                    <button class="toolbar-button">
+                        <ons-button id="facebookbt" class="button--large--cta"
+                            style="width: 125px; border-radius: 7px; margin: 0 auto;">Facebook</ons-button>
+                    </button>
+                    <button class="toolbar-button">
+                        <ons-button id="gmailbt" class="button--large--cta"
+                            style="width: 125px; border-radius: 7px; margin: 0 auto;">Gmail</ons-button>
+                    </button>
+                </p>
+            </div>
+
+        </ons-page>
+    </center>
+</body>
+
+</html>
