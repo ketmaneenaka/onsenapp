@@ -24,7 +24,7 @@
             <h3>สั่งอีกครั้งจาก</h3>
             <ons-card>
                 
-                <ons-list-item modifier="chevron" tappable>ตามสั่งแม่มณี</ons-list-item>
+                <ons-list-item modifier="chevron"  onclick="tamsangbtn()" tappable>ตามสั่งแม่มณี</ons-list-item>
 
                 <div class="center">
                     <center>
@@ -37,7 +37,7 @@
 
 
             <ons-card>
-                <ons-list-item modifier="chevron" tappable>บังหมัดกะทู้</ons-list-item>
+                <ons-list-item modifier="chevron"  onclick="bangbtn()" tappable>บังหมัดกะทู้</ons-list-item>
                 <div class="left">
                     <center>
                         <img src="https://spcdn.co/wp-content/uploads/2019/02/Sequence-07.00_06_26_13.Still044.jpg"
@@ -50,7 +50,7 @@
 
             <ons-card>
                    
-                    <ons-list-item modifier="chevron" tappable>กะทู้ คาเฟ่</ons-list-item>
+                    <ons-list-item modifier="chevron"  onclick="cafebtn()" tappable>กะทู้ คาเฟ่</ons-list-item>
 
                     <div class="center">
                         <center>
@@ -63,7 +63,7 @@
                 <h3>ร้านอาหารทั้งหมด</h3>
 
                 <ons-card>
-                    <ons-list-item modifier="chevron" tappable>Happy Cake Happy Cafe</ons-list-item>
+                    <ons-list-item modifier="chevron"  onclick="happybtn()" tappable>Happy Cake Happy Cafe</ons-list-item>
                     <div class="left">
                         <center>
                             <img src="http://www.bangkokland.co.th/beehive/floorplan/floor2/images/store24/07.jpg"
@@ -73,7 +73,7 @@
                 </ons-card>
                 <ons-card>
                 
-                        <ons-list-item modifier="chevron" tappable>ตามสั่งแม่มณี</ons-list-item>
+                        <ons-list-item modifier="chevron"  onclick="tamsangbtn()" tappable>ตามสั่งแม่มณี</ons-list-item>
         
                         <div class="center">
                             <center>
@@ -86,7 +86,7 @@
         
         
                     <ons-card>
-                        <ons-list-item modifier="chevron" tappable>บังหมัดกะทู้</ons-list-item>
+                        <ons-list-item modifier="chevron"  onclick="bangbtn()" tappable>บังหมัดกะทู้</ons-list-item>
                         <div class="left">
                             <center>
                                 <img src="https://spcdn.co/wp-content/uploads/2019/02/Sequence-07.00_06_26_13.Still044.jpg"
@@ -99,7 +99,7 @@
         
                     <ons-card>
                            
-                            <ons-list-item modifier="chevron" tappable>กะทู้ คาเฟ่</ons-list-item>
+                            <ons-list-item modifier="chevron"  onclick="cafebtn()" tappable>กะทู้ คาเฟ่</ons-list-item>
         
                             <div class="center">
                                 <center>
@@ -113,7 +113,7 @@
                 
                 <ons-card>
                         
-                        <ons-list-item modifier="chevron" tappable>ชาคอน</ons-list-item>
+                        <ons-list-item modifier="chevron"  onclick="chaconbtn()" tappable>ชาคอน</ons-list-item>
 
                         <div class="center">
                             <center>
@@ -126,7 +126,7 @@
 
 
                     <ons-card>
-                        <ons-list-item modifier="chevron" tappable>มุกดาฟรุ๊ตตี้</ons-list-item>
+                        <ons-list-item modifier="chevron"  onclick="mukdabtn()" tappable>มุกดาฟรุ๊ตตี้</ons-list-item>
                         <div class="left">
                             <center>
                                 <img src="https://medthai.com/images/2014/07/%E0%B8%99%E0%B9%89%E0%B8%B3%E0%B8%9C%E0%B8%B1%E0%B8%81%E0%B8%9C%E0%B8%A5%E0%B9%84%E0%B8%A1%E0%B9%89.jpg"
@@ -142,5 +142,29 @@
 
            
         </ons-scroller>
+    <body>
+        <script>
+            function tamsangbtn() {
+              window.location.href='Rtansang.html'
+            }
+            function bangbtn() {
+              window.location.href='Rbangmhad.html'
+            }
+            function mukdabtn() {
+              window.location.href='Rmukda.html'
+            }
+            function cafebtn() {
+              window.location.href='Rkhatucafe.html'
+            }
+            function happybtn() {
+              window.location.href='Rhappycake.html'
+            }
+            function chaconbtn() {
+              window.location.href='Rchaakon.html'
+            }
     
+    
+    
+            </script>
+    </body>
 </ons-page>

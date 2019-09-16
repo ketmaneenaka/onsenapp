@@ -1,24 +1,52 @@
 <ons-page id="sidemenu">
     <ons-list-title>Main Menu</ons-list-title>
     <ons-list id="links">
-        <ons-list-item id="homebtn" tappable>
+        <ons-list-item id="homebtn" onclick="homebtn()" tappable >
             Home
         </ons-list-item>
-        <ons-list-item id="streetbtn" tappable>
+        <ons-list-item id="alltbtn" onclick="allbtn()" tappable>
             ALL Resturant
         </ons-list-item>
-        <ons-list-item id="streetbtn" tappable>
+        <ons-list-item id="streetbtn" onclick="streetbtn()" tappable>
             Street Food
         </ons-list-item>
-        <ons-list-item id="dessertbtn" tappable>
+        <ons-list-item id="dessertbtn" onclick="dessertbtn()" tappable>
             Dessert
         </ons-list-item>
-        <ons-list-item id="beveragebtn" tappable>
+        <ons-list-item id="beveragebtn" onclick="beveragebtn()" tappable>
             beverage
         </ons-list-item>
-        <ons-list-item id="logoutbtn" tappable>
+        <ons-list-item id="logoutbtn" onclick="logoutbtn()" tappable>
             Logout
         </ons-list-item>
 
     </ons-list>
-</ons-page>
+
+    <body>
+        <script>
+            function homebtn() {
+              window.location.href='index.html'
+            }
+            function allbtn() {
+              window.location.href='resturantlist.html'
+            }
+            function streetbtn() {
+              window.location.href='Streetfood.html'
+            }
+            function dessertbtn() {
+              window.location.href='Dessert.html'
+            }
+            function beveragebtn() {
+              window.location.href='Beverage.html'
+            }
+            function logoutbtn() {
+              window.location.href='login.html'
+            }
+    
+    
+    
+            </script>
+    </body>
+    </ons-page>
+
+    
